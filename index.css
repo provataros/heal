@@ -1,0 +1,70 @@
+html,body{
+    padding : 0px;
+    margin : 0px;
+}
+
+.raid-frames{
+    width : 100%;
+    height : 400px;
+    padding : 25px;
+    box-sizing : border-box;
+}
+
+.raid-frame{
+    width : 100px;
+    height : 50px;
+    margin : 5px;
+    display : inline-block;
+    cursor : pointer;
+    border : 1px solid black;
+    padding : 10px;
+    box-sizing: border-box;
+
+}
+
+.raid-frame progress{
+    width : 100%;
+    height : 10px;
+}
+
+.cast-bar{
+    position : relative;
+    margin : 10px auto;
+    display: block;
+    background : white;
+}
+#spell{
+    background-color : blue;
+    height : 20px;
+    width : 50%;
+}
+#gcd{
+    background-color : red;
+    height : 5px;
+    width : 35%;
+}
+.selected{
+    background-color : lightskyblue;
+}
+
+#spellbar{
+    margin : 0px auto;
+    width : 95%;
+    text-align: center;
+}
+
+.spell-slot{
+    width : 50px;
+    height : 50px;
+    border : 1px solid black;
+    margin : 1px;
+    display : inline-block;
+}
+.iconTranquility {
+    background-image : url("./tranq.jpg");
+    background-size : contain;
+}
+.iconFlashHeal {
+    background-image : url("./flashheal.jpg");
+    background-size : contain;
+}
